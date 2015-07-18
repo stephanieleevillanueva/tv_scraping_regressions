@@ -11,4 +11,8 @@ Web scraping using BeautifulSoup and data analysis using Statsmodels and Scikit.
       generates variable ``canceled_shows`` for concluded TV shows from 2011-2015 and ``title`` for concluded TV show titles (subset of ``canceled_shows``)
   * wikipedia-state.py  
       generates variable ``show_state`` for shows and their settings (US state) as of July 2015.
-  
+
+<dl>
+  <dt>data</dt>
+  <dd>contains data files used in running <b>.ipynb</b> notebooks.</dd>  
+  * 
