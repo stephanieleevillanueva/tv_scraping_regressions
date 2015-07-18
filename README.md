@@ -15,4 +15,6 @@ Web scraping using BeautifulSoup and data analysis using Statsmodels and Scikit.
 <dl>
   <dt>data</dt>
   <dd>contains csv files used in running <b>.ipynb</b> notebooks.</dd> 
+  * tv_20150718_dataset.csv  
+      backup copy of dataset used in analysis (if in any event the webscraping fails)
 
