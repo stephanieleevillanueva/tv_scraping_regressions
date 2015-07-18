@@ -14,5 +14,5 @@ Web scraping using BeautifulSoup and data analysis using Statsmodels and Scikit.
 
 <dl>
   <dt>data</dt>
-  <dd>contains data files used in running <b>.ipynb</b> notebooks.</dd>  
-  * 
+  <dd>contains csv files used in running <b>.ipynb</b> notebooks.</dd> 
+
