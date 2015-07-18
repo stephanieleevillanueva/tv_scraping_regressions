@@ -1,7 +1,7 @@
 # tv-scraping-regressions
 Web scraping using BeautifulSoup and data analysis using Statsmodels and Scikit.
 
-###Folder structure:
+####Folder structure:
 <dl>
   <dt>_py_helpers</dt>
   <dd>contains <b>.py</b> files used in the various <b>.ipynb</b> notebooks.</dd>
