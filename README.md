@@ -10,11 +10,15 @@ Web scraping using BeautifulSoup and data analysis using Statsmodels and Scikit.
   * tvseriesfinale.py  
       generates variable ``canceled_shows`` for concluded TV shows from 2011-2015 and ``title`` for concluded TV show titles (subset of ``canceled_shows``)
   * wikipedia-state.py  
-      generates variable ``show_state`` for shows and their settings (US state) as of July 2015.
+      generates variable ``show_state`` for shows and their settings (US state) as of July 2015  
+  * generate_tv_csv_dataset.py  
+      generates ``data/tv.csv`` dataset used in analysis  
+  * generate_tv_training_df.py  
+      converts ``data/tv.csv`` dataset into pandas dataframe ``tv_df``
 
 <dl>
   <dt>data</dt>
   <dd>contains csv files used in running <b>.ipynb</b> notebooks.</dd> 
   * tv_20150718_dataset.csv  
-      backup copy of dataset used in analysis (if in any event the webscraping fails)
+      backup copy of dataset used in analysis (can be used for analysis when webscraping fails)
 
