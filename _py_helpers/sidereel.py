@@ -1,6 +1,10 @@
 import requests
 from bs4 import BeautifulSoup
 
+#variables:
+#show_titles = list of shows, title only
+#show_list = show name and genre
+
 genres = ['action', 'cartoons', 'comedy', 'crime', 'drama', 'fantasy', 'reality', 'science-fiction']
 
 show_list = []
@@ -29,7 +33,4 @@ for genre in genres:
                 show.append(title.get('href'))
                 show_list.append(show)
 
-#show_list
-
 show_titles = sorted([show[0] for show in show_list])
-#show_titles
